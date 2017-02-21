@@ -1,0 +1,21 @@
+{
+  "name": "codepeak/magento2-cronwatch",
+  "description": "This module will monitor the cron_schedule table for errors and send them to a given e-mail address",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Robert Lord, Codepeak AB",
+      "email": "robert@codepeak.se"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Codepeak\\Cronwatch\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
